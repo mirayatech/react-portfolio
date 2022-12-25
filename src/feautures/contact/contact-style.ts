@@ -31,6 +31,6 @@ export const Heading = styled.div`
 
 export const Text = styled.p`
   max-width: 800px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: ${colors.lightGrey};
 `
