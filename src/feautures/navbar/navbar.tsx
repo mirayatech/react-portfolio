@@ -2,7 +2,6 @@
 import { ToggleTheme } from '../toggle-theme/toggle-theme'
 import { Link, Links, Nav, Wrapper } from './navbar-style'
 
-import './navbar.css'
 type NavbarProps = {
   scrollToSection: (elementRef: any) => void
   home: any
@@ -30,7 +29,6 @@ export function Navbar({
           <Link onClick={() => scrollToSection(socials)}>Socials</Link>
           <Link onClick={() => scrollToSection(contact)}>Contact</Link>
         </Links>
-        <ToggleTheme />
       </Wrapper>
     </Nav>
   )

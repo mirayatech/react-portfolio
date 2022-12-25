@@ -6,7 +6,6 @@
 import { useState } from 'react'
 import { Moon, Sun } from '../../library'
 import { Button } from './toggle-theme-style'
-import './toggle-theme.css'
 
 export const ToggleTheme = () => {
   const [isClicked, setIsClicked] = useState(false)
