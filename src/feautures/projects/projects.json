@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Tic Tac Toe",
+    "githubUrl": "https://github.com/mirayatech/Tic-Tac-Toe",
+    "externalUrl": "https://toxo-two.vercel.app/",
+    "languages": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "Chat App",
+    "githubUrl": "https://github.com/mirayatech/Chat-App",
+    "externalUrl": "https://sabito.vercel.app/sign-in?redirect=%2F",
+    "languages": ["React", "TypeScript", "Firebase"]
+  },
+  {
+    "title": "Blog App",
+    "githubUrl": "https://github.com/mirayatech/Boruto",
+    "externalUrl": "https://boruto.vercel.app/",
+    "languages": ["React", "E2E", "TypeScript", "Firebase"]
+  },
+  {
+    "title": "Anime database",
+    "githubUrl": "https://github.com/mirayatech/Kaguya",
+    "externalUrl": "https://kaguya-mu.vercel.app/",
+    "languages": ["React", "TypeScript", "Vite", "Firebase"]
+  },
+  {
+    "title": "Netflix Clone",
+    "githubUrl": "https://github.com/mirayatech/Netflix-V2",
+    "externalUrl": "https://netflix-miraya.vercel.app/",
+    "languages": ["React", "TypeScript", "Firebase"]
+  },
+  {
+    "title": "Instagram Clone",
+    "githubUrl": "https://github.com/mirayatech/Instagram-Clone",
+    "externalUrl": "https://instagram-demonslayer.vercel.app/",
+    "languages": ["React", "TypeScript", "CSS", "Firebase"]
+  }
+]
