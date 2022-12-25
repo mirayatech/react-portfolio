@@ -1,19 +1,20 @@
 export const lightModeColors = {
-  white: '#fff',
   body: '#F9FAFB',
-  black: '#1a202c',
+  black: '#1d1d1d',
   badge: '#EAEAEA',
   darkGrey: '#4444',
   lightGrey: '#6666',
-  toggleBorder: '#999999',
 }
 
 export const darkModeColors = {
-  white: '#fff',
-  body: '#202023',
+  body: '#181818',
   badge: '#444444',
   darkGrey: '#3333',
   lightGrey: '#888888',
+}
+
+export const commonColors = {
+  white: '#fff',
   toggleBorder: '#999999',
 }
 
