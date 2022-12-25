@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { colors, linearGardient } from '../../library'
 export const Container = styled.div`
   padding-top: 100px;
+  padding: 0 1.4rem;
 `
 
 export const Heading = styled.div`
@@ -29,7 +30,7 @@ export const Heading = styled.div`
 `
 
 export const Grid = styled.div`
-  width: 75rem;
+  max-width: 75rem;
   display: grid;
   grid-gap: 4rem;
   grid-template-columns: repeat(auto-fit, 22rem);

@@ -1,10 +1,6 @@
 import styled from 'styled-components'
 import { colors } from '../../library'
 
-export const container = styled.div`
-  padding-top: 100px;
-`
-
 export const Heading = styled.div`
   margin-bottom: 1.5rem;
 

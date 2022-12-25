@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap');
 :root {
-  --green: #b6ffe5;
+  --green: #ffdaef;
   --body: #111111;
 }
 
@@ -25,6 +25,7 @@ a {
 }
 
 body {
+  overflow-x: hidden;
   scroll-behavior: smooth;
   background: var(--body);
 }

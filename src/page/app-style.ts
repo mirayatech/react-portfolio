@@ -23,3 +23,7 @@ export const Tertiary = styled.div`
   flex-direction: column;
   justify-content: center;
 `
+
+export const ContactWrapper = styled.div`
+  padding-top: 100px;
+`

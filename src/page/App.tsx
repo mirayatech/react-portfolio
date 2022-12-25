@@ -2,13 +2,12 @@
 import { useRef } from 'react'
 import { Contact, Footer, Home, Navbar, Projects, Socials } from '../feautures'
 
-import { Primary, Secondary, Tertiary } from './app-style'
+import { ContactWrapper, Primary, Secondary, Tertiary } from './app-style'
 
 export default function App() {
   const home = useRef(null)
   const about = useRef(null)
   const projects = useRef(null)
-  const socials = useRef(null)
   const contact = useRef(null)
 
   const scrollToSection = (elementRef: any) => {
@@ -25,7 +24,6 @@ export default function App() {
         home={home}
         about={about}
         projects={projects}
-        socials={socials}
         contact={contact}
       />
 
@@ -38,12 +36,11 @@ export default function App() {
       </Secondary>
 
       <Tertiary>
-        <div ref={socials}>
-          <Socials />
-        </div>
-        <div ref={contact}>
+        <Socials />
+
+        <ContactWrapper ref={contact}>
           <Contact />
-        </div>
+        </ContactWrapper>
       </Tertiary>
 
       <Footer />

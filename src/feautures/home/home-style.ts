@@ -1,6 +1,18 @@
 import styled from 'styled-components'
 import { colors } from '../../library'
 
+export const Wrapper = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+`
+
 export const Welcoming = styled.h1`
   color: ${colors.offWhite};
   font-weight: 500;
@@ -9,7 +21,7 @@ export const Welcoming = styled.h1`
 `
 
 export const Name = styled.h2`
-  font-size: 3.75rem;
+  font-size: 4.5rem;
   font-weight: 900;
   margin: 0.5rem 0;
   background: linear-gradient(
@@ -38,9 +50,9 @@ export const Name = styled.h2`
   }
 `
 export const Characteristic = styled.h3`
-  font-size: 2rem;
+  font-size: 2.45rem;
   font-weight: 500;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   color: ${colors.offWhite};
 `
 

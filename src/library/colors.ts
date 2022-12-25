@@ -1,6 +1,6 @@
 export const colors = {
   white: '#fff',
-  green: '#b6ffe5',
+  green: '#ffdaef',
   offWhite: '#F9FAFB',
   body: '#181818',
   badge: '#444444',
