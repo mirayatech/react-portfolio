@@ -1,6 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 import { useRef } from 'react'
-import { Home, Navbar, Projects } from '../feautures'
+import { Home, Navbar, Projects, Socials } from '../feautures'
 
 import { Primary, Secondary } from './app-style'
 
@@ -37,7 +37,9 @@ export default function App() {
         <Projects />
       </Secondary>
 
-      <div ref={projects}></div>
+      <Primary>
+        <Socials />
+      </Primary>
     </>
   )
 }
