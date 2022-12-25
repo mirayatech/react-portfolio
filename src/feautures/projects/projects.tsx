@@ -24,7 +24,7 @@ export function Projects() {
           <Line />
         </h2>
 
-        <h3>Stuff I’ve Worked On 📁</h3>
+        <h3>Stuff I’ve Worked On </h3>
       </Heading>
 
       <Grid>

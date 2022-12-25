@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap');
 :root {
-  /* Common */
-  --white: #fff;
-
-  --off-white: #f9fafb;
-
-  --dark-mode-body: #111111;
-  --dark-mode-badge: #333333;
-  --dark-mode-grey: #888888;
+  --green: #b6ffe5;
+  --body: #111111;
 }
 
 * {
@@ -15,6 +9,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Noto Sans JP', sans-serif;
+}
+
+*::selection {
+  color: var(--body);
+  background-color: var(--green);
 }
 
 button {
@@ -27,5 +26,5 @@ a {
 
 body {
   scroll-behavior: smooth;
-  background: var(--dark-mode-body);
+  background: var(--body);
 }

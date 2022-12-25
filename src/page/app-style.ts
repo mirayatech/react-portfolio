@@ -14,3 +14,12 @@ export const Secondary = styled.div`
   display: flex;
   align-items: center;
 `
+
+export const Tertiary = styled.div`
+  width: 75rem;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`

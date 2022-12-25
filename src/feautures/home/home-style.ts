@@ -48,5 +48,5 @@ export const Summary = styled.p`
   max-width: 31.25rem;
   font-size: 1.1rem;
   letter-spacing: 0.1rem;
-  color: ${colors.grey};
+  color: ${colors.lightGrey};
 `

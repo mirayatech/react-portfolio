@@ -10,7 +10,7 @@ export const Heading = styled.div`
     font-weight: 600;
     letter-spacing: 0.1rem;
     margin-bottom: 0.5rem;
-    color: ${colors.grey};
+    color: ${colors.darkGrey};
     text-transform: uppercase;
 
     svg {
@@ -40,20 +40,16 @@ export const Link = styled.a`
   font-weight: 500;
   font-size: 1.2rem;
   align-items: center;
-  color: ${colors.grey};
+  color: ${colors.lightGrey};
   transition: all 0.2s ease;
-  border-bottom: 3px solid #f4d2fe;
+  border-bottom: 3px solid ${colors.green};
   justify-content: space-between;
-  border-top: 1px solid ${colors.grey};
-  border-left: 1px solid ${colors.grey};
-  border-right: 1px solid ${colors.grey};
+  border-top: 1px solid ${colors.lightGrey};
+  border-left: 1px solid ${colors.lightGrey};
+  border-right: 1px solid ${colors.lightGrey};
 
-  :hover span {
+  :hover {
     color: ${colors.offWhite};
-  }
-
-  span {
-    transition: all 0.2s ease;
   }
 
   svg {

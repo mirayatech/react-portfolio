@@ -18,28 +18,28 @@ export function Socials() {
           <Line />
         </h2>
 
-        <h3>On The Web 🌐</h3>
+        <h3>On The Web </h3>
       </Heading>
 
       <Links>
         <Link href="https://github.com/mirayatech" target={'_blank'}>
-          <span>GitHub</span>
+          GitHub
           <Github />
         </Link>
         <Link href="https://www.instagram.com/mirayatech/" target={'_blank'}>
-          <span> Instagram</span>
+          Instagram
           <Instagram />
         </Link>
         <Link href="https://www.youtube.com/@mirayatech." target={'_blank'}>
-          <span>YouTube</span>
+          YouTube
           <YouTube />
         </Link>
         <Link href="https://www.tiktok.com/@mirayatech" target={'_blank'}>
-          <span>TikTok</span>
+          TikTok
           <TikTok />
         </Link>
         <Link href="https://twitter.com/mirayadev" target={'_blank'}>
-          <span>Twitter</span>
+          Twitter
           <Twitter />
         </Link>
       </Links>

@@ -13,7 +13,7 @@ export const Heading = styled.div`
     font-weight: 600;
     letter-spacing: 0.1rem;
     margin-bottom: 0.5rem;
-    color: ${colors.grey};
+    color: ${colors.darkGrey};
     text-transform: uppercase;
 
     svg {

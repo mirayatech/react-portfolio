@@ -1,10 +1,11 @@
 export const colors = {
   white: '#fff',
-
+  green: '#b6ffe5',
   offWhite: '#F9FAFB',
   body: '#181818',
   badge: '#444444',
-  grey: '#797575',
+  darkGrey: '#777777',
+  lightGrey: '#999999',
   colorPurple: '#8000ff',
   colorLightPurple: '#eb85ff',
   colorLightBlue: '#b1e5f9',
