@@ -1,39 +1,20 @@
-export const lightModeColors = {
-  body: '#F9FAFB',
-  black: '#1d1d1d',
-  badge: '#EAEAEA',
-  darkGrey: '#4444',
-  lightGrey: '#6666',
-}
+export const colors = {
+  white: '#fff',
 
-export const darkModeColors = {
+  offWhite: '#F9FAFB',
   body: '#181818',
   badge: '#444444',
-  darkGrey: '#3333',
-  lightGrey: '#888888',
-}
-
-export const commonColors = {
-  white: '#fff',
-  toggleBorder: '#999999',
-}
-
-export const colorful = {
+  grey: '#797575',
   colorPurple: '#8000ff',
-  colorLightPurple: 'rgb(207, 89, 230)',
-  colorLightBlue: '#6BC5F8',
+  colorLightPurple: '#eb85ff',
+  colorLightBlue: '#b1e5f9',
 }
 
 export const linearGardient = {
-  1: `linear-gradient(180deg,#f3cbab,#feedca)`,
-  2: `linear-gradient(180deg,#b1e5f9,#f4d2fe)`,
-  3: `linear-gradient(180deg,#dbb4f3,#efb7d7)`,
-  4: `linear-gradient(180deg,#efa971,#e4cafe)`,
-  5: `linear-gradient(180deg,#A88BEB,#F8CEEC)`,
-  6: `linear-gradient(180deg,#FFD8CB,#F9D29D)`,
-  7: `linear-gradient(180deg,#F9D976,#F39F86)`,
-  9: `linear-gradient(180deg,#B0F3F1,#FFCFDF)`,
-  10: `linear-gradient(180deg,#9795EF,#F9C5D1)`,
-  11: `linear-gradient(180deg,#AFF1DA,#F9EA8F)`,
-  12: `linear-gradient(180deg,#FE5F75,#FC9842)`,
+  a: `linear-gradient(-40deg,#ffd8b8,#fff4df)`,
+  b: `linear-gradient(-40deg,#b1e5f9,#f4d2fe)`,
+  e: `linear-gradient(-40deg,#cab8ff,#ffe7f5)`,
+  d: `linear-gradient(-20deg,#ffe9a6,#b6ffe5)`,
+  c: `linear-gradient(-20deg, #ffdaef, #ffe9a6)`,
+  f: `linear-gradient(90deg,#ffe7f5,#d5f3ff)`,
 }

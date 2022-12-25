@@ -1,10 +1,10 @@
 import styled from 'styled-components'
-import { colorful } from '../../library'
+import { colors } from '../../library'
 
 export const Welcoming = styled.h1`
+  color: ${colors.offWhite};
   font-weight: 500;
   font-size: 1.1rem;
-
   text-transform: uppercase;
 `
 
@@ -14,10 +14,10 @@ export const Name = styled.h2`
   margin: 0.5rem 0;
   background: linear-gradient(
     -45deg,
-    ${colorful.colorLightBlue},
-    ${colorful.colorLightPurple},
-    ${colorful.colorLightBlue},
-    ${colorful.colorLightPurple}
+    ${colors.colorLightBlue},
+    ${colors.colorLightPurple},
+    ${colors.colorLightBlue},
+    ${colors.colorLightPurple}
   );
   background-clip: text;
   background-size: 400% 400%;
@@ -41,10 +41,12 @@ export const Characteristic = styled.h3`
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
+  color: ${colors.offWhite};
 `
 
 export const Summary = styled.p`
-  max-width: 500px;
+  max-width: 31.25rem;
   font-size: 1.1rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
+  color: ${colors.grey};
 `

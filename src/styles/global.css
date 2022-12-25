@@ -2,15 +2,9 @@
 :root {
   /* Common */
   --white: #fff;
-  --toggleBorder: #999999;
 
-  /* Light Mode */
-  --light-mode-body: #f9fafb;
-  --light-mode-black: #1d1d1d;
-  --light-mode-badge: #eaeaea;
-  --light-mode-grey: #636363;
+  --off-white: #f9fafb;
 
-  /* Dark Mode */
   --dark-mode-body: #111111;
   --dark-mode-badge: #333333;
   --dark-mode-grey: #888888;
@@ -20,7 +14,6 @@
   margin: 0;
   margin: 0;
   box-sizing: border-box;
-
   font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -33,15 +26,6 @@ a {
 }
 
 body {
-  background: var(--body);
   scroll-behavior: smooth;
-  transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
-}
-
-body.light {
-  --body: var(--light-mode-body);
-}
-
-body.dark {
-  --body: var(--dark-mode-body);
+  background: var(--dark-mode-body);
 }
