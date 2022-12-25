@@ -1,9 +1,0 @@
-@import url('../../styles/global');
-
-body.light span {
-  color: var(--light-mode-black);
-}
-
-body.dark span {
-  color: var(--light-mode-body);
-}
