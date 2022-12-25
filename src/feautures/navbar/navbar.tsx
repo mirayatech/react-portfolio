@@ -6,7 +6,6 @@ type NavbarProps = {
   home: any
   about: any
   projects: any
-  socials: any
   contact: any
 }
 
@@ -15,7 +14,6 @@ export function Navbar({
   home,
   about,
   projects,
-  socials,
   contact,
 }: NavbarProps) {
   return (
@@ -25,7 +23,6 @@ export function Navbar({
           <Link onClick={() => scrollToSection(home)}>Home</Link>
           <Link onClick={() => scrollToSection(about)}>About</Link>
           <Link onClick={() => scrollToSection(projects)}>Projects</Link>
-          <Link onClick={() => scrollToSection(socials)}>Socials</Link>
           <Link onClick={() => scrollToSection(contact)}>Contact</Link>
         </Links>
       </Wrapper>

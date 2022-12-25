@@ -1,11 +1,10 @@
 import { Line } from '../../library'
-import { Container } from '../projects/project-style'
 import { Heading, Text } from './contact-style'
 
 /* eslint-disable react/react-in-jsx-scope */
 export function Contact() {
   return (
-    <Container>
+    <>
       <Heading>
         <h2>
           Contact
@@ -20,6 +19,6 @@ export function Contact() {
         whether it&#39;s a question or wants to say hi, I&#39;ll try my best to
         get back to you.
       </Text>
-    </Container>
+    </>
   )
 }
