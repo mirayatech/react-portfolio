@@ -1,5 +1,4 @@
 /* eslint-disable react/react-in-jsx-scope */
-import { ToggleTheme } from '../toggle-theme/toggle-theme'
 import { Link, Links, Nav, Wrapper } from './navbar-style'
 
 type NavbarProps = {

@@ -37,7 +37,7 @@ export default function App() {
         <Projects />
       </Secondary>
 
-      <Primary>
+      <Primary ref={socials}>
         <Socials />
       </Primary>
     </>

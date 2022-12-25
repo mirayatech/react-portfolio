@@ -10,13 +10,14 @@ import {
   Language,
   Languages,
   Heading,
+  Container,
 } from './project-style'
 
 import projects from './projects.json'
 
 export function Projects() {
   return (
-    <div>
+    <Container>
       <Heading>
         <h2>
           Projects
@@ -48,6 +49,6 @@ export function Projects() {
           </Card>
         ))}
       </Grid>
-    </div>
+    </Container>
   )
 }
