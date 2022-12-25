@@ -1,0 +1,9 @@
+@import url('../../styles/global');
+
+body.light a {
+  color: var(--light-mode-black);
+}
+
+body.dark a {
+  color: var(--light-mode-body);
+}
