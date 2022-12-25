@@ -1,8 +1,11 @@
 import styled from 'styled-components'
 import { colors, linearGardient } from '../../library'
+export const Container = styled.div`
+  padding-top: 100px;
+`
 
 export const Heading = styled.div`
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 
   h2 {
     display: flex;
@@ -29,12 +32,12 @@ export const Grid = styled.div`
   width: 75rem;
   display: grid;
   grid-gap: 4rem;
-  grid-template-columns: repeat(auto-fit, 21.875rem);
+  grid-template-columns: repeat(auto-fit, 22rem);
   justify-content: space-between;
 `
 
 export const Card = styled.div`
-  height: 22rem;
+  height: 20rem;
   display: flex;
   padding: 1.5rem;
   position: relative;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { colors } from '../../library'
 
 export const Heading = styled.div`
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 
   h2 {
     display: flex;
