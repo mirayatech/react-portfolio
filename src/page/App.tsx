@@ -1,6 +1,8 @@
 /* eslint-disable react/react-in-jsx-scope */
 import { useRef } from 'react'
-import { Navbar } from '../feautures'
+import { Home, Navbar, Projects } from '../feautures'
+
+import { Primary, Secondary } from './app-style'
 
 export default function App() {
   const home = useRef(null)
@@ -27,11 +29,15 @@ export default function App() {
         contact={contact}
       />
 
-      <div ref={home}>home</div>
+      <Primary ref={home}>
+        <Home />
+      </Primary>
 
-      <div ref={about}>about</div>
+      <Secondary ref={projects}>
+        <Projects />
+      </Secondary>
 
-      <div ref={projects}>projects</div>
+      <div ref={projects}></div>
     </>
   )
 }
