@@ -18,6 +18,12 @@ export const commonColors = {
   toggleBorder: '#999999',
 }
 
+export const colorful = {
+  colorPurple: '#8000ff',
+  colorLightPurple: 'rgb(207, 89, 230)',
+  colorLightBlue: '#6BC5F8',
+}
+
 export const linearGardient = {
   1: `linear-gradient(180deg,#f3cbab,#feedca)`,
   2: `linear-gradient(180deg,#b1e5f9,#f4d2fe)`,

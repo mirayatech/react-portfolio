@@ -8,14 +8,12 @@
   --light-mode-body: #f9fafb;
   --light-mode-black: #1d1d1d;
   --light-mode-badge: #eaeaea;
-  --light-mode-darkGrey: #4444;
-  --light-mode-lightGrey: #6666;
+  --light-mode-grey: #636363;
 
   /* Dark Mode */
-  --dark-mode-body: #181818;
-  --dark-mode-badge: #444444;
-  --dark-mode-darkGrey: #3333;
-  --dark-mode-lightGrey: #888888;
+  --dark-mode-body: #111111;
+  --dark-mode-badge: #333333;
+  --dark-mode-grey: #888888;
 }
 
 * {
