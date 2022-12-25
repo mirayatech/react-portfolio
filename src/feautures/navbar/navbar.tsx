@@ -24,21 +24,11 @@ export function Navbar({
     <Nav>
       <Wrapper>
         <Links>
-          <Link onClick={() => scrollToSection(home)} tabIndex={1}>
-            Home
-          </Link>
-          <Link onClick={() => scrollToSection(about)} tabIndex={1}>
-            About
-          </Link>
-          <Link onClick={() => scrollToSection(projects)} tabIndex={1}>
-            Projects
-          </Link>
-          <Link onClick={() => scrollToSection(socials)} tabIndex={1}>
-            Socials
-          </Link>
-          <Link onClick={() => scrollToSection(contact)} tabIndex={1}>
-            Contact
-          </Link>
+          <Link onClick={() => scrollToSection(home)}>Home</Link>
+          <Link onClick={() => scrollToSection(about)}>About</Link>
+          <Link onClick={() => scrollToSection(projects)}>Projects</Link>
+          <Link onClick={() => scrollToSection(socials)}>Socials</Link>
+          <Link onClick={() => scrollToSection(contact)}>Contact</Link>
         </Links>
         <ToggleTheme />
       </Wrapper>
