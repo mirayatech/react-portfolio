@@ -5,4 +5,8 @@ export const Text = styled.p`
   max-width: 800px;
   font-size: 1.1rem;
   color: ${colors.lightGrey};
+
+  @media screen and (max-width: 745px) {
+    font-size: 1rem;
+  }
 `
