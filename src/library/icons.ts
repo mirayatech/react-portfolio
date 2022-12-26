@@ -6,5 +6,21 @@ import { BsInstagram as Instagram } from 'react-icons/bs'
 import { RiTwitterLine as Twitter } from 'react-icons/ri'
 import { IoLogoYoutube as YouTube } from 'react-icons/io'
 import { FaTiktok as TikTok } from 'react-icons/fa'
+import {
+  HiOutlineBars2 as TwoBars,
+  HiOutlineBars3 as ThreeBars,
+} from 'react-icons/hi2'
 
-export { Sun, Moon, Github, Link, Line, Instagram, YouTube, TikTok, Twitter }
+export {
+  Sun,
+  Moon,
+  Github,
+  Link,
+  Line,
+  Instagram,
+  YouTube,
+  TikTok,
+  Twitter,
+  TwoBars,
+  ThreeBars,
+}
