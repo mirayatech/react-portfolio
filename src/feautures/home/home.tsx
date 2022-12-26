@@ -1,111 +1,820 @@
 /* eslint-disable react/react-in-jsx-scope */
-import {
-  Arrow,
-  Bundle,
-  Chunck,
-  DistanceLeftChunck,
-  FourLinePreventionV1,
-  FourLinePreventionV2,
-  FourLinePreventionV3,
-  FourLinePreventionV4,
-  FourLinePrimaryV1,
-  FourLinePrimaryV2,
-  FourLinePrimaryV3,
-  FourLinePrimaryV4,
-  FourLineSecondaryV1,
-  FourLineSecondaryV2,
-  FourLineSecondaryV3,
-  FourLineSecondaryV4,
-  FourLineTertiaryV1,
-  FourLineTertiaryV2,
-  FourLineTertiaryV3,
-  FourLineTertiaryV4,
-  Name,
-  OneLinePrimary,
-  OneLineSecondary,
-  Subtitle,
-  ThreeLinePrimaryV1,
-  ThreeLinePrimaryV2,
-  ThreeLineSecondaryV1,
-  ThreeLineSecondaryV2,
-  ThreeLineTertiaryV1,
-  ThreeLineTertiaryV2,
-  Title,
-  TwoLinePrimaryV1,
-  TwoLinePrimaryV2,
-  TwoLineSecondaryV1,
-  TwoLineSecondaryV2,
-  Wrapper,
-} from './home-style'
+import { motion } from 'framer-motion'
+import './home.css'
 export function Home() {
   return (
-    <Wrapper>
-      <Arrow />
+    <div className="Wrapper">
+      <motion.div className="Arrow" />
 
-      <Bundle>
-        <Chunck>
-          <ThreeLinePrimaryV1 />
-          <ThreeLineSecondaryV1 />
-          <ThreeLineTertiaryV1 />
-        </Chunck>
+      <div className="Bundle">
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.2,
+                type: 'spring',
+                duration: 0.4,
+              },
+            },
+          }}
+          className="Chunck"
+        >
+          <motion.div
+            className="ThreeLinePrimaryV1"
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.4,
+                  type: 'spring',
+                  duration: 0.6,
+                },
+              },
+            }}
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.6,
+                  type: 'spring',
+                  duration: 0.8,
+                },
+              },
+            }}
+            className="ThreeLineSecondaryV1"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.8,
+                  type: 'spring',
+                  duration: 1,
+                },
+              },
+            }}
+            className="ThreeLineTertiaryV1"
+          />
+        </motion.div>
 
-        <OneLinePrimary />
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.4,
+                type: 'spring',
+                duration: 0.6,
+              },
+            },
+          }}
+          className="OneLinePrimary"
+        />
 
-        <Chunck>
-          <FourLinePrimaryV1 />
-          <FourLineSecondaryV1 />
-          <FourLineTertiaryV1 />
-          <FourLinePreventionV1 />
-        </Chunck>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.2,
+                type: 'spring',
+                duration: 0.4,
+              },
+            },
+          }}
+          className="Chunck"
+        >
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.4,
+                  type: 'spring',
+                  duration: 0.4,
+                },
+              },
+            }}
+            className="FourLinePrimaryV1"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.6,
+                  type: 'spring',
+                  duration: 0.8,
+                },
+              },
+            }}
+            className="FourLineSecondaryV1"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.8,
+                  type: 'spring',
+                  duration: 1,
+                },
+              },
+            }}
+            className="FourLineTertiaryV1"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 1,
+                  type: 'spring',
+                  duration: 1.2,
+                },
+              },
+            }}
+            className="FourLinePreventionV1"
+          />
+        </motion.div>
 
-        <Chunck>
-          <FourLinePrimaryV2 />
-          <FourLineSecondaryV2 />
-          <FourLineTertiaryV2 />
-          <FourLinePreventionV2 />
-        </Chunck>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.2,
+                type: 'spring',
+                duration: 0.4,
+              },
+            },
+          }}
+          className="Chunck"
+        >
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.4,
+                  type: 'spring',
+                  duration: 0.6,
+                },
+              },
+            }}
+            className="FourLinePrimaryV2"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.6,
+                  type: 'spring',
+                  duration: 0.8,
+                },
+              },
+            }}
+            className="FourLineSecondaryV2"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.8,
+                  type: 'spring',
+                  duration: 1,
+                },
+              },
+            }}
+            className="FourLineTertiaryV2"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 1,
+                  type: 'spring',
+                  duration: 1.2,
+                },
+              },
+            }}
+            className="FourLinePreventionV2"
+          />
+        </motion.div>
 
         <br />
 
-        <DistanceLeftChunck>
-          <FourLinePrimaryV3 />
-          <FourLineSecondaryV3 />
-          <FourLineTertiaryV3 />
-          <FourLinePreventionV3 />
-        </DistanceLeftChunck>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.2,
+                type: 'spring',
+                duration: 0.4,
+              },
+            },
+          }}
+          className="DistanceLeftChunck"
+        >
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.4,
+                  type: 'spring',
+                  duration: 0.6,
+                },
+              },
+            }}
+            className="FourLinePrimaryV3"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.6,
+                  type: 'spring',
+                  duration: 0.8,
+                },
+              },
+            }}
+            className="FourLineSecondaryV3"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.8,
+                  type: 'spring',
+                  duration: 1,
+                },
+              },
+            }}
+            className="FourLineTertiaryV3"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 1,
+                  type: 'spring',
+                  duration: 1.2,
+                },
+              },
+            }}
+            className="FourLinePreventionV3"
+          />
+        </motion.div>
 
-        <Name>
-          <Title>Miraya Tech</Title>
-          <Subtitle>Frontend Developer</Subtitle>
-        </Name>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.4,
+                type: 'spring',
+                duration: 0.6,
+              },
+            },
+          }}
+          className="Name"
+        >
+          <motion.h1
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.6,
+                  type: 'spring',
+                  duration: 0.8,
+                },
+              },
+            }}
+            className="Title"
+          >
+            Miraya Tech
+          </motion.h1>
+          <motion.h2
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.6,
+                  type: 'spring',
+                  duration: 0.8,
+                },
+              },
+            }}
+            className="Subtitle"
+          >
+            Frontend Developer
+          </motion.h2>
+        </motion.div>
 
-        <Chunck>
-          <TwoLinePrimaryV1 />
-          <TwoLineSecondaryV1 />
-        </Chunck>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.2,
+                type: 'spring',
+                duration: 0.4,
+              },
+            },
+          }}
+          className="Chunck"
+        >
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.4,
+                  type: 'spring',
+                  duration: 0.6,
+                },
+              },
+            }}
+            className="TwoLinePrimaryV1"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.6,
+                  type: 'spring',
+                  duration: 0.8,
+                },
+              },
+            }}
+            className="TwoLineSecondaryV1"
+          />
+        </motion.div>
 
-        <Chunck>
-          <ThreeLinePrimaryV2 />
-          <ThreeLineSecondaryV2 />
-          <ThreeLineTertiaryV2 />
-        </Chunck>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.2,
+                type: 'spring',
+                duration: 0.4,
+              },
+            },
+          }}
+          className="Chunck"
+        >
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.4,
+                  type: 'spring',
+                  duration: 0.6,
+                },
+              },
+            }}
+            className="ThreeLinePrimaryV2"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.6,
+                  type: 'spring',
+                  duration: 0.8,
+                },
+              },
+            }}
+            className="ThreeLineSecondaryV2"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.8,
+                  type: 'spring',
+                  duration: 1,
+                },
+              },
+            }}
+            className="ThreeLineTertiaryV2"
+          />
+        </motion.div>
 
         <br />
 
-        <Chunck>
-          <TwoLinePrimaryV2 />
-          <TwoLineSecondaryV2 />
-        </Chunck>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.2,
+                type: 'spring',
+                duration: 0.4,
+              },
+            },
+          }}
+          className="Chunck"
+        >
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.6,
+                  type: 'spring',
+                  duration: 0.8,
+                },
+              },
+            }}
+            className="TwoLinePrimaryV2"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.8,
+                  type: 'spring',
+                  duration: 1,
+                },
+              },
+            }}
+            className="TwoLineSecondaryV2"
+          />
+        </motion.div>
 
-        <OneLineSecondary />
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.4,
+                type: 'spring',
+                duration: 0.6,
+              },
+            },
+          }}
+          className="OneLineSecondary"
+        />
 
-        <Chunck>
-          <FourLinePrimaryV4 />
-          <FourLineSecondaryV4 />
-          <FourLineTertiaryV4 />
-          <FourLinePreventionV4 />
-        </Chunck>
-      </Bundle>
-    </Wrapper>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              translateX: '100px',
+              opacity: 0,
+            },
+            visible: {
+              translateX: '0px',
+              opacity: 1,
+              transition: {
+                delay: 0.2,
+                type: 'spring',
+                duration: 0.4,
+              },
+            },
+          }}
+          className="Chunck"
+        >
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.4,
+                  type: 'spring',
+                  duration: 0.6,
+                },
+              },
+            }}
+            className="FourLinePrimaryV4"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.6,
+                  type: 'spring',
+                  duration: 0.8,
+                },
+              },
+            }}
+            className="FourLineSecondaryV4"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 0.8,
+                  type: 'spring',
+                  duration: 1,
+                },
+              },
+            }}
+            className="FourLineTertiaryV4"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 1,
+                  type: 'spring',
+                  duration: 1.2,
+                },
+              },
+            }}
+            className="FourLinePreventionV4"
+          />
+        </motion.div>
+      </div>
+    </div>
   )
 }
