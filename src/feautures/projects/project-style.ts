@@ -34,20 +34,20 @@ export const Card = styled.div`
 
   @media screen and (max-width: 1000px) {
     height: 18rem;
-    width: 46vw;
+    width: 44vw;
   }
 
   @media screen and (max-width: 760px) {
-    width: 45vw;
+    width: 42vw;
   }
 
   @media screen and (max-width: 600px) {
     height: 14rem;
-    width: 94vw;
+    width: 92vw;
   }
 
   @media screen and (max-width: 420px) {
-    width: 93vw;
+    width: 90vw;
   }
 
   :first-child {
