@@ -1,52 +1,33 @@
 import styled from 'styled-components'
 import { colors } from '../../library'
+import { LinksMobile } from './socials-media-query'
 
-export const Heading = styled.div`
-  margin-bottom: 2rem;
-
-  h2 {
-    display: flex;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
-    margin-bottom: 0.5rem;
-    color: ${colors.darkGrey};
-    text-transform: uppercase;
-
-    svg {
-      font-size: 1.2rem;
-      margin-left: 0.5rem;
-    }
-  }
-
-  h3 {
-    font-size: 2.2rem;
-    color: ${colors.offWhite};
-  }
-`
+const borderPink = ` 3px solid ${colors.green};`
+const borderGrey = `1px solid ${colors.lightGrey}`
 
 export const Links = styled.div`
-  width: 75rem;
+  width: 100%;
+  ${LinksMobile}
   display: grid;
   grid-gap: 4rem;
-  position: relative;
-  grid-template-columns: repeat(auto-fit, 21.875rem);
-  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, 20rem);
 `
 
 export const Link = styled.a`
+  width: 100%;
+
   display: flex;
-  padding: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+
   font-weight: 500;
   font-size: 1.2rem;
-  align-items: center;
   color: ${colors.lightGrey};
+
+  padding: 1.5rem;
+  border: ${borderGrey};
   transition: all 0.2s ease;
-  border-bottom: 3px solid ${colors.green};
-  justify-content: space-between;
-  border-top: 1px solid ${colors.lightGrey};
-  border-left: 1px solid ${colors.lightGrey};
-  border-right: 1px solid ${colors.lightGrey};
+  border-bottom: ${borderPink};
 
   :hover {
     color: ${colors.offWhite};
@@ -63,5 +44,21 @@ export const Link = styled.a`
 
   :last-child svg {
     font-size: 1.8rem;
+  }
+
+  @media screen and (max-width: 680px) {
+    font-size: 1rem;
+
+    svg {
+      font-size: 1.3rem;
+    }
+
+    :nth-child(4) svg {
+      font-size: 1.2rem;
+    }
+
+    :last-child svg {
+      font-size: 1.4rem;
+    }
   }
 `

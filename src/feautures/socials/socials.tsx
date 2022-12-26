@@ -7,7 +7,7 @@ export function Socials() {
   const title = 'On The Web'
   const subtitle = 'More of my works'
   return (
-    <div>
+    <>
       <Headings title={title} subtitle={subtitle} />
 
       <Links>
@@ -32,6 +32,6 @@ export function Socials() {
           <Twitter />
         </Link>
       </Links>
-    </div>
+    </>
   )
 }
