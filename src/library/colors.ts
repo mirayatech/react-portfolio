@@ -18,7 +18,4 @@ export const linearGardient = {
   d: `linear-gradient(-20deg,#ffe9a6,#b6ffe5)`,
   e: `linear-gradient(-40deg,#cab8ff,#ffe7f5)`,
   f: `linear-gradient(90deg,#ffe7f5,#d5f3ff)`,
-  g: `linear-gradient(90deg, #819bf7 0%, #4dffd5 100%);`,
-  h: `linear-gradient(90deg, #ffe9a6 0%, #ff7373 100%);`,
-  i: `linear-gradient(90deg, #f3a6ff 0%, #a3afff 100%);`,
 }
