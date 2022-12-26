@@ -4,7 +4,8 @@ export const Primary = styled.div`
   display: flex;
   height: 100vh;
   align-items: center;
-  padding: 15px 15px 0 15px;
+  margin-top: -150px;
+  padding: 0 15px;
 
   @media screen and (max-width: 1230px) {
     padding: 15px 15px 0 0;
