@@ -25,6 +25,9 @@ a {
 }
 
 body {
+  width: 100%;
+  margin: auto;
+  max-width: 75rem;
   overflow-x: hidden;
   scroll-behavior: smooth;
   background: var(--body);
