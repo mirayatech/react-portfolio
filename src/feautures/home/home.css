@@ -1,0 +1,774 @@
+:root {
+  --white: #fff;
+  --arrow: #333333;
+  --a-garident: linear-gradient(90deg, #819bf7 0%, #4dffd5 100%);
+  --b-gardient: linear-gradient(90deg, #ffe9a6 0%, #ff7373 100%);
+  --c-gardient: linear-gradient(90deg, #f3a6ff 0%, #a3afff 100%);
+  --dark-grey: #797575;
+}
+
+.Wrapper {
+  display: flex;
+}
+
+.Arrow {
+  width: 1px;
+  height: 492px;
+  margin-right: 60px;
+  background: var(--arrow);
+}
+
+.Bundle {
+  width: 100%;
+}
+.Chunck {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.Chunck:last-child {
+  margin-bottom: 0;
+}
+
+.DistanceLeftChunck {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+}
+
+/* NAME */
+.Name {
+  line-height: 1.8;
+  margin-left: 60px;
+  padding: 20px 0 35px 0;
+}
+.Title {
+  font-weight: 600;
+  font-size: 3.5rem;
+  color: var(--white);
+}
+
+.Subtitle {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+/* FOUR ROWS -------------------------------------------------------- */
+
+/* Four Rows V1 */
+.FourLinePrimaryV1 {
+  width: 80px;
+  height: 15px;
+  margin-right: 15px;
+  background: var(--b-gardient);
+}
+
+.FourLineSecondaryV1 {
+  height: 15px;
+  width: 15px;
+  margin-right: 15px;
+  background: var(--dark-grey);
+}
+.FourLineTertiaryV1 {
+  height: 15px;
+  width: 60px;
+  margin-right: 15px;
+  background: var(--dark-grey);
+}
+.FourLinePreventionV1 {
+  height: 15px;
+  width: 140px;
+  background: var(--a-garident);
+}
+
+/* Four Rows V2 */
+.FourLinePrimaryV2 {
+  width: 140px;
+  height: 15px;
+  margin-right: 15px;
+  background: var(--a-garident);
+}
+.FourLineSecondaryV2 {
+  height: 15px;
+  width: 80px;
+  margin-right: 15px;
+  background: var(--dark-grey);
+}
+.FourLineTertiaryV2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background: var(--dark-grey);
+}
+.FourLinePreventionV2 {
+  height: 15px;
+  width: 220px;
+  background: var(--b-gardient);
+}
+
+/* Four Rows V3 */
+.FourLinePrimaryV3 {
+  width: 80px;
+  height: 15px;
+  margin-right: 15px;
+  background: var(--a-garident);
+}
+.FourLineSecondaryV3 {
+  height: 15px;
+  width: 15px;
+  margin-right: 15px;
+  background: var(--dark-grey);
+}
+
+.FourLineTertiaryV3 {
+  height: 15px;
+  width: 60px;
+  margin-right: 15px;
+  background: var(--dark-grey);
+}
+.FourLinePreventionV3 {
+  height: 15px;
+  width: 140px;
+  background: var(--c-gardient);
+}
+
+/* Four Rows V4 */
+.FourLinePrimaryV4 {
+  width: 60px;
+  height: 15px;
+  margin-right: 15px;
+  background: var(--c-gardient);
+}
+.FourLineSecondaryV4 {
+  height: 15px;
+  width: 15px;
+  margin-right: 15px;
+  background: var(--dark-grey);
+}
+.FourLineTertiaryV4 {
+  height: 15px;
+  width: 60px;
+  margin-right: 15px;
+  background: var(--dark-grey);
+}
+
+.FourLinePreventionV4 {
+  height: 15px;
+  width: 80px;
+  background: var(--a-garident);
+}
+
+/* THREE ROWS -------------------------------------------------------- */
+
+/* Three Rows V1 */
+.ThreeLinePrimaryV1 {
+  height: 15px;
+  width: 140px;
+  background: var(--a-garident);
+}
+
+.ThreeLineSecondaryV1 {
+  width: 80px;
+  height: 15px;
+  margin: 0 15px;
+  background: var(--dark-grey);
+}
+
+.ThreeLineTertiaryV1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--dark-grey);
+}
+
+/* Three Rows V2 */
+.ThreeLinePrimaryV2 {
+  height: 15px;
+  width: 140px;
+  background: var(--c-gardient);
+}
+
+.ThreeLineSecondaryV2 {
+  width: 60px;
+  height: 15px;
+  margin: 0 15px;
+  background: var(--a-garident);
+}
+
+.ThreeLineTertiaryV2 {
+  width: 222px;
+  height: 15px;
+  background: var(--c-gardient);
+}
+
+/* TWO ROWS -------------------------------------------------------- */
+
+/* Two Rows V1 */
+.TwoLinePrimaryV1 {
+  height: 15px;
+  width: 170px;
+  margin-right: 15px;
+  background: var(--b-gardient);
+}
+
+.TwoLineSecondaryV1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--dark-grey);
+}
+
+/* Two Rows V2 */
+.TwoLinePrimaryV2 {
+  height: 15px;
+  width: 120px;
+  background: var(--a-garident);
+}
+
+.TwoLineSecondaryV2 {
+  width: 60px;
+  height: 15px;
+  margin: 0 15px;
+  background: var(--c-gardient);
+}
+
+/* ONE ROW -------------------------------------------------------- */
+
+.OneLinePrimary {
+  height: 15px;
+  width: 220px;
+  margin-bottom: 12px;
+  background: var(--c-gardient);
+}
+
+.OneLineSecondary {
+  height: 15px;
+  width: 220px;
+  margin-bottom: 12px;
+  background: var(--b-gardient);
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1230px) {
+  .Arrow {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .Arrow {
+    margin-left: 60px;
+    height: 465px;
+  }
+
+  .Title {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .Subtitle {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .Arrow {
+    height: 420px;
+  }
+
+  /* Four Rows V1 */
+  .FourLinePrimaryV1 {
+    width: 60px;
+    height: 10px;
+    margin-right: 8px;
+  }
+
+  .FourLineSecondaryV1 {
+    height: 10px;
+    width: 10px;
+    margin-right: 8px;
+  }
+  .FourLineTertiaryV1 {
+    height: 10px;
+    width: 40px;
+  }
+  .FourLinePreventionV1 {
+    height: 10px;
+    width: 120px;
+  }
+
+  /* Four Rows V2 */
+  .FourLinePrimaryV2 {
+    width: 120px;
+    height: 10px;
+    margin-right: 8px;
+  }
+  .FourLineSecondaryV2 {
+    height: 10px;
+    width: 40px;
+    margin-right: 8px;
+  }
+  .FourLineTertiaryV2 {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+  }
+  .FourLinePreventionV2 {
+    height: 10px;
+    width: 140px;
+    margin-right: 8px;
+  }
+
+  /* Four Rows V3 */
+  .FourLinePrimaryV3 {
+    width: 40px;
+    height: 10px;
+    margin-right: 8px;
+  }
+  .FourLineSecondaryV3 {
+    height: 10px;
+    width: 10px;
+    margin-right: 8px;
+  }
+
+  .FourLineTertiaryV3 {
+    height: 10px;
+    width: 30px;
+    margin-right: 8px;
+  }
+  .FourLinePreventionV3 {
+    height: 10px;
+    width: 100px;
+    margin-right: 8px;
+  }
+
+  /* Four Rows V4 */
+  .FourLinePrimaryV4 {
+    width: 40px;
+    height: 10px;
+    margin-right: 8px;
+  }
+  .FourLineSecondaryV4 {
+    height: 10px;
+    width: 10px;
+    margin-right: 8px;
+  }
+  .FourLineTertiaryV4 {
+    height: 10px;
+    width: 40px;
+    margin-right: 8px;
+  }
+
+  .FourLinePreventionV4 {
+    height: 10px;
+    width: 60px;
+    margin-right: 8px;
+  }
+
+  .ThreeLinePrimaryV1 {
+    height: 10px;
+    width: 100px;
+    margin-right: 0;
+  }
+
+  .ThreeLineSecondaryV1 {
+    width: 60px;
+    height: 10px;
+    margin: 0 8px;
+  }
+
+  .ThreeLineTertiaryV1 {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Three Rows V2 */
+  .ThreeLinePrimaryV2 {
+    height: 10px;
+    width: 100px;
+    /* margin-right: 8px; */
+  }
+
+  .ThreeLineSecondaryV2 {
+    width: 40px;
+    height: 10px;
+    margin-right: 8px;
+  }
+
+  .ThreeLineTertiaryV2 {
+    width: 185px;
+    height: 10px;
+    margin-right: 8px;
+  }
+  .TwoLinePrimaryV1 {
+    height: 10px;
+    width: 130px;
+    margin-right: 8px;
+  }
+
+  .TwoLineSecondaryV1 {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+  }
+
+  /* Two Rows V2 */
+  .TwoLinePrimaryV2 {
+    height: 10px;
+    width: 80px;
+    margin-right: 8px;
+  }
+
+  .TwoLineSecondaryV2 {
+    width: 30px;
+    height: 10px;
+    margin-right: 8px;
+  }
+
+  .OneLinePrimary {
+    height: 10px;
+    width: 180px;
+    margin-right: 8px;
+
+    margin-bottom: 12px;
+  }
+
+  .OneLineSecondary {
+    height: 10px;
+    width: 240px;
+    margin-right: 8px;
+
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Arrow {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .Name {
+    margin-left: 30px;
+  }
+
+  .DistanceLeftChunck {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .Title {
+    font-size: 2.4rem;
+  }
+
+  .Subtitle {
+    font-size: 1rem;
+  }
+  .Arrow {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 420px;
+  }
+
+  /* Four Rows V1 */
+  .FourLinePrimaryV1 {
+    width: 60px;
+    height: 10px;
+  }
+
+  .FourLineSecondaryV1 {
+    height: 10px;
+    width: 10px;
+  }
+  .FourLineTertiaryV1 {
+    height: 10px;
+    width: 40px;
+    margin-right: 8px;
+    background: var(--dark-grey);
+  }
+  .FourLinePreventionV1 {
+    height: 10px;
+    width: 120px;
+
+    background: var(--a-garident);
+  }
+
+  /* Four Rows V2 */
+  .FourLinePrimaryV2 {
+    width: 120px;
+    height: 10px;
+  }
+  .FourLineSecondaryV2 {
+    height: 10px;
+    width: 40px;
+  }
+  .FourLineTertiaryV2 {
+    width: 10px;
+    height: 10px;
+  }
+  .FourLinePreventionV2 {
+    height: 10px;
+    width: 110px;
+  }
+
+  /* Four Rows V3 */
+  .FourLinePrimaryV3 {
+    width: 40px;
+    height: 10px;
+  }
+  .FourLineSecondaryV3 {
+    height: 10px;
+    width: 10px;
+  }
+
+  .FourLineTertiaryV3 {
+    height: 10px;
+    width: 30px;
+  }
+  .FourLinePreventionV3 {
+    height: 10px;
+    width: 100px;
+  }
+
+  /* Four Rows V4 */
+  .FourLinePrimaryV4 {
+    width: 40px;
+    height: 10px;
+  }
+  .FourLineSecondaryV4 {
+    height: 10px;
+    width: 10px;
+  }
+  .FourLineTertiaryV4 {
+    height: 10px;
+    width: 40px;
+  }
+
+  .FourLinePreventionV4 {
+    height: 10px;
+    width: 60px;
+  }
+
+  .ThreeLinePrimaryV1 {
+    height: 10px;
+    width: 100px;
+  }
+
+  .ThreeLineSecondaryV1 {
+    width: 60px;
+    height: 10px;
+  }
+
+  .ThreeLineTertiaryV1 {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Three Rows V2 */
+  .ThreeLinePrimaryV2 {
+    height: 10px;
+    width: 100px;
+  }
+
+  .ThreeLineSecondaryV2 {
+    width: 40px;
+    height: 10px;
+    margin: 0 8px;
+  }
+
+  .ThreeLineTertiaryV2 {
+    width: 145px;
+    height: 10px;
+  }
+  .TwoLinePrimaryV1 {
+    height: 10px;
+    width: 130px;
+  }
+
+  .TwoLineSecondaryV1 {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Two Rows V2 */
+  .TwoLinePrimaryV2 {
+    height: 10px;
+    width: 80px;
+    margin: 0;
+  }
+
+  .TwoLineSecondaryV2 {
+    width: 30px;
+    height: 10px;
+    margin: 0 8px;
+  }
+
+  .OneLinePrimary {
+    width: 180px;
+  }
+
+  .OneLineSecondary {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .Title {
+    font-size: 2.4rem;
+  }
+
+  .Subtitle {
+    font-size: 1rem;
+  }
+  .Arrow {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 420px;
+  }
+
+  /* Four Rows V1 */
+  .FourLinePrimaryV1 {
+    width: 60px;
+    height: 10px;
+  }
+
+  .FourLineSecondaryV1 {
+    height: 10px;
+    width: 10px;
+  }
+  .FourLineTertiaryV1 {
+    height: 10px;
+    width: 40px;
+    margin-right: 8px;
+    background: var(--dark-grey);
+  }
+  .FourLinePreventionV1 {
+    height: 10px;
+    width: 120px;
+
+    background: var(--a-garident);
+  }
+
+  /* Four Rows V2 */
+  .FourLinePrimaryV2 {
+    width: 120px;
+    height: 10px;
+  }
+  .FourLineSecondaryV2 {
+    height: 10px;
+    width: 40px;
+  }
+  .FourLineTertiaryV2 {
+    width: 10px;
+    height: 10px;
+  }
+  .FourLinePreventionV2 {
+    height: 10px;
+    width: 110px;
+  }
+
+  /* Four Rows V3 */
+  .FourLinePrimaryV3 {
+    width: 40px;
+    height: 10px;
+  }
+  .FourLineSecondaryV3 {
+    height: 10px;
+    width: 10px;
+  }
+
+  .FourLineTertiaryV3 {
+    height: 10px;
+    width: 30px;
+  }
+  .FourLinePreventionV3 {
+    height: 10px;
+    width: 100px;
+  }
+
+  /* Four Rows V4 */
+  .FourLinePrimaryV4 {
+    width: 40px;
+    height: 10px;
+  }
+  .FourLineSecondaryV4 {
+    height: 10px;
+    width: 10px;
+  }
+  .FourLineTertiaryV4 {
+    height: 10px;
+    width: 40px;
+  }
+
+  .FourLinePreventionV4 {
+    height: 10px;
+    width: 60px;
+  }
+
+  .ThreeLinePrimaryV1 {
+    height: 10px;
+    width: 100px;
+  }
+
+  .ThreeLineSecondaryV1 {
+    width: 60px;
+    height: 10px;
+  }
+
+  .ThreeLineTertiaryV1 {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Three Rows V2 */
+  .ThreeLinePrimaryV2 {
+    height: 10px;
+    width: 100px;
+  }
+
+  .ThreeLineSecondaryV2 {
+    width: 40px;
+    height: 10px;
+    margin: 0 8px;
+  }
+
+  .ThreeLineTertiaryV2 {
+    width: 145px;
+    height: 10px;
+  }
+  .TwoLinePrimaryV1 {
+    height: 10px;
+    width: 130px;
+  }
+
+  .TwoLineSecondaryV1 {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Two Rows V2 */
+  .TwoLinePrimaryV2 {
+    height: 10px;
+    width: 80px;
+    margin: 0;
+  }
+
+  .TwoLineSecondaryV2 {
+    width: 30px;
+    height: 10px;
+    margin: 0 8px;
+  }
+
+  .OneLinePrimary {
+    width: 180px;
+  }
+
+  .OneLineSecondary {
+    width: 240px;
+  }
+}

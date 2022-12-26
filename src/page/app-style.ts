@@ -5,6 +5,10 @@ export const Primary = styled.div`
   height: 100vh;
   align-items: center;
   padding: 15px 15px 0 15px;
+
+  @media screen and (max-width: 1230px) {
+    padding: 15px 15px 0 0;
+  }
 `
 
 export const Secondary = styled.div`
