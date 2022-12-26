@@ -21,7 +21,8 @@ import {
   FourLineTertiaryV3,
   FourLineTertiaryV4,
   Name,
-  OneLine,
+  OneLinePrimary,
+  OneLineSecondary,
   Subtitle,
   ThreeLinePrimaryV1,
   ThreeLinePrimaryV2,
@@ -48,7 +49,7 @@ export function Home() {
           <ThreeLineTertiaryV1 />
         </Chunck>
 
-        <OneLine />
+        <OneLinePrimary />
 
         <Chunck>
           <FourLinePrimaryV1 />
@@ -96,7 +97,7 @@ export function Home() {
           <TwoLineSecondaryV2 />
         </Chunck>
 
-        <OneLine />
+        <OneLineSecondary />
 
         <Chunck>
           <FourLinePrimaryV4 />

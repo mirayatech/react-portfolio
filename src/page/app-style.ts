@@ -10,7 +10,7 @@ export const Primary = styled.div`
 export const Secondary = styled.div`
   display: flex;
   align-items: center;
-  padding: 15px 15px 150px 15px;
+  padding: 100px 15px 150px 15px;
 `
 
 export const Tertiary = styled.div`

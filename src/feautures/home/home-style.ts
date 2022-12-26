@@ -56,7 +56,7 @@ export const FourLinePrimaryV1 = styled.div`
   width: 80px;
   height: 15px;
   margin-right: 15px;
-  background: ${linearGardient.d};
+  background: ${linearGardient.i};
 `
 export const FourLineSecondaryV1 = styled.div`
   height: 15px;
@@ -73,7 +73,7 @@ export const FourLineTertiaryV1 = styled.div`
 export const FourLinePreventionV1 = styled.div`
   height: 15px;
   width: 140px;
-  background: ${linearGardient.d};
+  background: ${linearGardient.g};
 `
 
 // Four Rows V2
@@ -99,7 +99,7 @@ export const FourLineTertiaryV2 = styled.div`
 export const FourLinePreventionV2 = styled.div`
   height: 15px;
   width: 220px;
-  background: ${linearGardient.b};
+  background: ${linearGardient.i};
 `
 
 // Four Rows V3
@@ -107,7 +107,7 @@ export const FourLinePrimaryV3 = styled.div`
   width: 80px;
   height: 15px;
   margin-right: 15px;
-  background: ${linearGardient.b};
+  background: ${linearGardient.g};
 `
 export const FourLineSecondaryV3 = styled.div`
   height: 15px;
@@ -124,7 +124,7 @@ export const FourLineTertiaryV3 = styled.div`
 export const FourLinePreventionV3 = styled.div`
   height: 15px;
   width: 140px;
-  background: ${linearGardient.d};
+  background: ${linearGardient.h};
 `
 
 // Four Rows V4
@@ -132,7 +132,7 @@ export const FourLinePrimaryV4 = styled.div`
   width: 60px;
   height: 15px;
   margin-right: 15px;
-  background: ${linearGardient.b};
+  background: ${linearGardient.h};
 `
 export const FourLineSecondaryV4 = styled.div`
   height: 15px;
@@ -149,7 +149,7 @@ export const FourLineTertiaryV4 = styled.div`
 export const FourLinePreventionV4 = styled.div`
   height: 15px;
   width: 80px;
-  background: ${linearGardient.d};
+  background: ${linearGardient.g};
 `
 
 // THREE ROWS --------------------------------------------------------
@@ -158,7 +158,7 @@ export const FourLinePreventionV4 = styled.div`
 export const ThreeLinePrimaryV1 = styled.div`
   height: 15px;
   width: 140px;
-  background: ${linearGardient.d};
+  background: ${linearGardient.g};
 `
 
 export const ThreeLineSecondaryV1 = styled.div`
@@ -179,7 +179,7 @@ export const ThreeLineTertiaryV1 = styled.div`
 export const ThreeLinePrimaryV2 = styled.div`
   height: 15px;
   width: 140px;
-  background: ${linearGardient.d};
+  background: ${linearGardient.h};
 `
 
 export const ThreeLineSecondaryV2 = styled.div`
@@ -192,7 +192,7 @@ export const ThreeLineSecondaryV2 = styled.div`
 export const ThreeLineTertiaryV2 = styled.div`
   width: 222px;
   height: 15px;
-  background: ${linearGardient.d};
+  background: ${linearGardient.h};
 `
 
 // TWO ROWS --------------------------------------------------------
@@ -202,7 +202,7 @@ export const TwoLinePrimaryV1 = styled.div`
   height: 15px;
   width: 170px;
   margin-right: 15px;
-  background: ${linearGardient.d};
+  background: ${linearGardient.i};
 `
 
 export const TwoLineSecondaryV1 = styled.div`
@@ -215,21 +215,28 @@ export const TwoLineSecondaryV1 = styled.div`
 export const TwoLinePrimaryV2 = styled.div`
   height: 15px;
   width: 120px;
-  background: ${linearGardient.d};
+  background: ${linearGardient.g};
 `
 
 export const TwoLineSecondaryV2 = styled.div`
   width: 60px;
   height: 15px;
   margin: 0 15px;
-  background: ${colors.darkGrey};
+  background: ${linearGardient.h};
 `
 
 // ONE ROW --------------------------------------------------------
 
-export const OneLine = styled.div`
+export const OneLinePrimary = styled.div`
   height: 15px;
   width: 220px;
   margin-bottom: 12px;
-  background: ${linearGardient.g};
+  background: ${linearGardient.h};
+`
+
+export const OneLineSecondary = styled.div`
+  height: 15px;
+  width: 220px;
+  margin-bottom: 12px;
+  background: ${linearGardient.i};
 `
