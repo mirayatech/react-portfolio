@@ -3,15 +3,7 @@
 
 import { Github, Link } from '../../library'
 import { Headings } from '../headings/headings'
-import {
-  Grid,
-  Card,
-  Links,
-  Name,
-  Language,
-  Languages,
-  Container,
-} from './project-style'
+import { Grid, Card, Links, Name, Language, Languages } from './project-style'
 
 import projects from './projects.json'
 
@@ -20,7 +12,7 @@ export function Projects() {
   const subtitle = 'Stuff I’ve Worked On'
 
   return (
-    <Container>
+    <div>
       <Headings title={title} subtitle={subtitle} />
 
       <Grid>
@@ -45,6 +37,6 @@ export function Projects() {
           </Card>
         ))}
       </Grid>
-    </Container>
+    </div>
   )
 }

@@ -1,49 +1,54 @@
 import styled from 'styled-components'
 import { colors, linearGardient } from '../../library'
-export const Container = styled.div`
-  padding-top: 100px;
-  padding: 0 1.4rem;
-`
-
-export const Heading = styled.div`
-  margin-bottom: 2rem;
-
-  h2 {
-    display: flex;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
-    margin-bottom: 0.5rem;
-    color: ${colors.darkGrey};
-    text-transform: uppercase;
-
-    svg {
-      font-size: 1.2rem;
-      margin-left: 0.5rem;
-    }
-  }
-
-  h3 {
-    font-size: 2.2rem;
-    color: ${colors.offWhite};
-  }
-`
 
 export const Grid = styled.div`
-  max-width: 75rem;
+  width: 100%;
   display: grid;
   grid-gap: 4rem;
-  grid-template-columns: repeat(auto-fit, 22rem);
-  justify-content: space-between;
+  grid-template-columns: auto auto auto;
+
+  @media screen and (max-width: 1000px) {
+    grid-gap: 2rem;
+    grid-template-columns: auto auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-gap: 2rem;
+    grid-template-columns: auto;
+  }
 `
 
 export const Card = styled.div`
   height: 20rem;
+  width: 20rem;
   display: flex;
   padding: 1.5rem;
   position: relative;
   flex-direction: column;
   justify-content: space-between;
+
+  @media screen and (max-width: 1120px) {
+    height: 19rem;
+    width: 19rem;
+  }
+
+  @media screen and (max-width: 1000px) {
+    height: 18rem;
+    width: 46vw;
+  }
+
+  @media screen and (max-width: 760px) {
+    width: 45vw;
+  }
+
+  @media screen and (max-width: 600px) {
+    height: 14rem;
+    width: 94vw;
+  }
+
+  @media screen and (max-width: 420px) {
+    width: 93vw;
+  }
 
   :first-child {
     background-image: ${linearGardient.a};
@@ -79,9 +84,14 @@ export const Links = styled.div`
   justify-content: flex-end;
 
   a {
+    padding: 0 5px 5px;
     font-size: 1.5rem;
     margin-left: 1.2rem;
     color: ${colors.body};
+    @media screen and (max-width: 745px) {
+      font-size: 1.3rem;
+      margin-left: 1.6rem;
+    }
   }
 `
 
@@ -89,6 +99,9 @@ export const Name = styled.div`
   font-size: 2rem;
   font-weight: 900;
   text-align: center;
+  @media screen and (max-width: 745px) {
+    font-size: 1.5rem;
+  }
 `
 
 export const Languages = styled.div`
@@ -99,4 +112,8 @@ export const Languages = styled.div`
 export const Language = styled.span`
   font-weight: 500;
   font-size: 0.9rem;
+
+  @media screen and (max-width: 745px) {
+    font-size: 0.8rem;
+  }
 `
