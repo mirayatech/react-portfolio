@@ -1,7 +1,8 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/react-in-jsx-scope */
 
-import { Github, Line, Link } from '../../library'
+import { Github, Link } from '../../library'
+import { Headings } from '../headings/headings'
 import {
   Grid,
   Card,
@@ -9,23 +10,18 @@ import {
   Name,
   Language,
   Languages,
-  Heading,
   Container,
 } from './project-style'
 
 import projects from './projects.json'
 
 export function Projects() {
+  const title = 'Projects'
+  const subtitle = 'Stuff I’ve Worked On'
+
   return (
     <Container>
-      <Heading>
-        <h2>
-          Projects
-          <Line />
-        </h2>
-
-        <h3>Stuff I’ve Worked On </h3>
-      </Heading>
+      <Headings title={title} subtitle={subtitle} />
 
       <Grid>
         {projects.map((project) => (

@@ -1,18 +1,14 @@
-import { Line } from '../../library'
-import { Heading, Text } from './contact-style'
+import { Headings } from '../headings/headings'
+import { Text } from './contact-style'
 
 /* eslint-disable react/react-in-jsx-scope */
 export function Contact() {
+  const title = 'Contact'
+  const subtitle = "Look Who's Here"
+
   return (
     <>
-      <Heading>
-        <h2>
-          Contact
-          <Line />
-        </h2>
-
-        <h3>Look Who&#39;s Here </h3>
-      </Heading>
+      <Headings title={title} subtitle={subtitle} />
 
       <Text>
         The fastest way to get in touch with me is to send me a DM on Instagram,
