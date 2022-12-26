@@ -23,4 +23,8 @@ export const HeadingThree = styled.div`
   font-weight: 700;
   font-size: 2.2rem;
   color: ${colors.offWhite};
+
+  @media screen and (max-width: 680px) {
+    font-size: 1.8rem;
+  }
 `
