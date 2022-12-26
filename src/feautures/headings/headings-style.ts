@@ -17,6 +17,10 @@ export const HeadingTwo = styled.h2`
     font-size: 1.2rem;
     margin-left: 0.5rem;
   }
+
+  @media screen and (max-width: 745px) {
+    font-size: 0.75rem;
+  }
 `
 
 export const HeadingThree = styled.div`
@@ -24,7 +28,7 @@ export const HeadingThree = styled.div`
   font-size: 2.2rem;
   color: ${colors.offWhite};
 
-  @media screen and (max-width: 680px) {
-    font-size: 1.8rem;
+  @media screen and (max-width: 745px) {
+    font-size: 1.6rem;
   }
 `
