@@ -2,13 +2,12 @@ export const colors = {
   white: '#fff',
   green: '#ffdaef',
   offWhite: '#F9FAFB',
-  body: '#181818',
+  body: '#111111',
   badge: '#444444',
   darkGrey: '#797575',
   lightGrey: '#adadad',
-  colorPurple: '#8000ff',
-  colorLightPurple: '#eb85ff',
-  colorLightBlue: '#b1e5f9',
+  blue: '#819bf7',
+  red: '#ff7373',
 }
 
 export const linearGardient = {
