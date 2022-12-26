@@ -8,7 +8,7 @@
   {
     "title": "Chat App",
     "githubUrl": "https://github.com/mirayatech/Chat-App",
-    "externalUrl": "https://sabito.vercel.app/sign-in?redirect=%2F",
+    "externalUrl": "https://sabito.vercel.app/",
     "languages": ["React", "TypeScript", "Firebase"]
   },
   {
