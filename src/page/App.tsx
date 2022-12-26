@@ -19,13 +19,13 @@ export default function App() {
 
   return (
     <>
-      <Navbar
+      {/* <Navbar
         scrollToSection={scrollToSection}
         home={home}
         about={about}
         projects={projects}
         contact={contact}
-      />
+      /> */}
 
       <Primary ref={home}>
         <Home />
