@@ -1,16 +1,24 @@
 import styled from 'styled-components'
 import { colors } from '../../library'
-import { LinksMobile } from './socials-media-query'
 
 const borderPink = ` 3px solid ${colors.green};`
 const borderGrey = `1px solid ${colors.lightGrey}`
 
 export const Links = styled.div`
   width: 100%;
-  ${LinksMobile}
   display: grid;
   grid-gap: 4rem;
-  grid-template-columns: repeat(auto-fit, 20rem);
+  grid-template-columns: auto auto auto;
+
+  @media screen and (max-width: 1000px) {
+    grid-gap: 2rem;
+    grid-template-columns: auto auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-gap: 2rem;
+    grid-template-columns: auto;
+  }
 `
 
 export const Link = styled.a`
@@ -46,7 +54,7 @@ export const Link = styled.a`
     font-size: 1.8rem;
   }
 
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 745px) {
     font-size: 1rem;
 
     svg {
