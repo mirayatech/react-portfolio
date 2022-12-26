@@ -1,5 +1,15 @@
 /* eslint-disable react/react-in-jsx-scope */
-import { Link, Links, Nav, Wrapper } from './navbar-style'
+import { useState } from 'react'
+import {
+  Github,
+  Instagram,
+  ThreeBars,
+  TikTok,
+  Twitter,
+  TwoBars,
+  YouTube,
+} from '../../library'
+import { Grid, Links, Menu, Nav, Navigation, Wrapper } from './navbar-style'
 
 type NavbarProps = {
   scrollToSection: (elementRef: any) => void
@@ -16,16 +26,73 @@ export function Navbar({
   projects,
   contact,
 }: NavbarProps) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const handleOnClick = (event: any) => {
+    setIsOpen(false)
+    scrollToSection(event)
+  }
+
   return (
     <Nav>
-      <Wrapper>
-        <Links>
-          <Link onClick={() => scrollToSection(home)}>Home</Link>
-          <Link onClick={() => scrollToSection(about)}>About</Link>
-          <Link onClick={() => scrollToSection(projects)}>Projects</Link>
-          <Link onClick={() => scrollToSection(contact)}>Contact</Link>
-        </Links>
-      </Wrapper>
+      <button onClick={() => setIsOpen(!isOpen)}>
+        {isOpen ? <TwoBars /> : <ThreeBars />}
+      </button>
+      {isOpen && (
+        <Menu>
+          <Navigation>
+            <h1>Navigation</h1>
+
+            <Wrapper>
+              <span onClick={() => handleOnClick(home)}>Home</span>
+              <span onClick={() => handleOnClick(about)}>About</span>
+              <span onClick={() => handleOnClick(projects)}>Projects</span>
+              <span onClick={() => handleOnClick(contact)}>Contact</span>
+            </Wrapper>
+          </Navigation>
+
+          <Links>
+            <h1>On the web</h1>
+            <Grid>
+              <a
+                href="https://github.com/mirayatech"
+                target={'_blank'}
+                rel="noreferrer"
+              >
+                <Github />
+              </a>
+              <a
+                href="https://www.instagram.com/mirayatech/"
+                target={'_blank'}
+                rel="noreferrer"
+              >
+                <Instagram />
+              </a>
+              <a
+                href="https://www.youtube.com/@mirayatech."
+                target={'_blank'}
+                rel="noreferrer"
+              >
+                <YouTube />
+              </a>
+              <a
+                href="https://www.tiktok.com/@mirayatech"
+                target={'_blank'}
+                rel="noreferrer"
+              >
+                <TikTok />
+              </a>
+              <a
+                href="https://twitter.com/mirayadev"
+                target={'_blank'}
+                rel="noreferrer"
+              >
+                <Twitter />
+              </a>
+            </Grid>
+          </Links>
+        </Menu>
+      )}
     </Nav>
   )
 }
