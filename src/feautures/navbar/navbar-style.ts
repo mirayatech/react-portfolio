@@ -60,7 +60,7 @@ font-weight: 900;
 
 export const Nav = styled.nav`
   display: flex;
-  padding: 1rem;
+  padding: 2rem 1rem 0;
   position: relative;
   justify-content: flex-end;
 
