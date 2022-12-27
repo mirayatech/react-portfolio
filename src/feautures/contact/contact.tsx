@@ -11,8 +11,8 @@ export function Contact() {
       <Headings title={title} subtitle={subtitle} />
       <Text>
         The fastest way to get in touch with me is to send me a DM on Instagram,
-        whether it&#39;s a question or wants to say hi, I&#39;ll try my best to
-        get back to you.
+        whether you have a question or just want to say hi, I&#39;ll try my best
+        to get back to you.
       </Text>
     </>
   )
