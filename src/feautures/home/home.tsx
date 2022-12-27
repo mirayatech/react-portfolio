@@ -4,7 +4,26 @@ import './home.css'
 export function Home() {
   return (
     <div className="Wrapper">
-      <motion.div className="Arrow" />
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={{
+          hidden: {
+            translateX: '100px',
+            opacity: 0,
+          },
+          visible: {
+            translateX: '0px',
+            opacity: 1,
+            transition: {
+              delay: 0.2,
+              type: 'spring',
+              duration: 0.5,
+            },
+          },
+        }}
+        className="Arrow"
+      />
 
       <div className="Bundle">
         <motion.div
@@ -21,7 +40,7 @@ export function Home() {
               transition: {
                 delay: 0.2,
                 type: 'spring',
-                duration: 0.4,
+                duration: 0.6,
               },
             },
           }}
@@ -40,9 +59,9 @@ export function Home() {
                 translateX: '0px',
                 opacity: 1,
                 transition: {
-                  delay: 0.4,
+                  delay: 0.6,
                   type: 'spring',
-                  duration: 0.6,
+                  duration: 0.8,
                 },
               },
             }}
@@ -59,9 +78,9 @@ export function Home() {
                 translateX: '0px',
                 opacity: 1,
                 transition: {
-                  delay: 0.6,
+                  delay: 0.8,
                   type: 'spring',
-                  duration: 0.8,
+                  duration: 1,
                 },
               },
             }}
@@ -79,9 +98,9 @@ export function Home() {
                 translateX: '0px',
                 opacity: 1,
                 transition: {
-                  delay: 0.8,
+                  delay: 1,
                   type: 'spring',
-                  duration: 1,
+                  duration: 1.2,
                 },
               },
             }}
@@ -103,7 +122,7 @@ export function Home() {
               transition: {
                 delay: 0.4,
                 type: 'spring',
-                duration: 0.6,
+                duration: 1,
               },
             },
           }}
@@ -124,32 +143,12 @@ export function Home() {
               transition: {
                 delay: 0.2,
                 type: 'spring',
-                duration: 0.4,
+                duration: 0.6,
               },
             },
           }}
           className="Chunck"
         >
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                translateX: '100px',
-                opacity: 0,
-              },
-              visible: {
-                translateX: '0px',
-                opacity: 1,
-                transition: {
-                  delay: 0.4,
-                  type: 'spring',
-                  duration: 0.4,
-                },
-              },
-            }}
-            className="FourLinePrimaryV1"
-          />
           <motion.div
             initial="hidden"
             animate="visible"
@@ -168,7 +167,7 @@ export function Home() {
                 },
               },
             }}
-            className="FourLineSecondaryV1"
+            className="FourLinePrimaryV1"
           />
           <motion.div
             initial="hidden"
@@ -188,7 +187,7 @@ export function Home() {
                 },
               },
             }}
-            className="FourLineTertiaryV1"
+            className="FourLineSecondaryV1"
           />
           <motion.div
             initial="hidden"
@@ -205,6 +204,26 @@ export function Home() {
                   delay: 1,
                   type: 'spring',
                   duration: 1.2,
+                },
+              },
+            }}
+            className="FourLineTertiaryV1"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 1.2,
+                  type: 'spring',
+                  duration: 1.4,
                 },
               },
             }}
@@ -226,32 +245,12 @@ export function Home() {
               transition: {
                 delay: 0.2,
                 type: 'spring',
-                duration: 0.4,
+                duration: 0.6,
               },
             },
           }}
           className="Chunck"
         >
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                translateX: '100px',
-                opacity: 0,
-              },
-              visible: {
-                translateX: '0px',
-                opacity: 1,
-                transition: {
-                  delay: 0.4,
-                  type: 'spring',
-                  duration: 0.6,
-                },
-              },
-            }}
-            className="FourLinePrimaryV2"
-          />
           <motion.div
             initial="hidden"
             animate="visible"
@@ -270,7 +269,7 @@ export function Home() {
                 },
               },
             }}
-            className="FourLineSecondaryV2"
+            className="FourLinePrimaryV2"
           />
           <motion.div
             initial="hidden"
@@ -290,7 +289,7 @@ export function Home() {
                 },
               },
             }}
-            className="FourLineTertiaryV2"
+            className="FourLineSecondaryV2"
           />
           <motion.div
             initial="hidden"
@@ -307,6 +306,26 @@ export function Home() {
                   delay: 1,
                   type: 'spring',
                   duration: 1.2,
+                },
+              },
+            }}
+            className="FourLineTertiaryV2"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 1.2,
+                  type: 'spring',
+                  duration: 1.4,
                 },
               },
             }}
@@ -330,32 +349,12 @@ export function Home() {
               transition: {
                 delay: 0.2,
                 type: 'spring',
-                duration: 0.4,
+                duration: 0.6,
               },
             },
           }}
           className="DistanceLeftChunck"
         >
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                translateX: '100px',
-                opacity: 0,
-              },
-              visible: {
-                translateX: '0px',
-                opacity: 1,
-                transition: {
-                  delay: 0.4,
-                  type: 'spring',
-                  duration: 0.6,
-                },
-              },
-            }}
-            className="FourLinePrimaryV3"
-          />
           <motion.div
             initial="hidden"
             animate="visible"
@@ -374,7 +373,7 @@ export function Home() {
                 },
               },
             }}
-            className="FourLineSecondaryV3"
+            className="FourLinePrimaryV3"
           />
           <motion.div
             initial="hidden"
@@ -394,7 +393,7 @@ export function Home() {
                 },
               },
             }}
-            className="FourLineTertiaryV3"
+            className="FourLineSecondaryV3"
           />
           <motion.div
             initial="hidden"
@@ -411,6 +410,26 @@ export function Home() {
                   delay: 1,
                   type: 'spring',
                   duration: 1.2,
+                },
+              },
+            }}
+            className="FourLineTertiaryV3"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 1.2,
+                  type: 'spring',
+                  duration: 1.4,
                 },
               },
             }}
@@ -450,9 +469,9 @@ export function Home() {
                 translateX: '0px',
                 opacity: 1,
                 transition: {
-                  delay: 0.6,
+                  delay: 0.8,
                   type: 'spring',
-                  duration: 0.8,
+                  duration: 1,
                 },
               },
             }}
@@ -472,9 +491,9 @@ export function Home() {
                 translateX: '0px',
                 opacity: 1,
                 transition: {
-                  delay: 0.6,
+                  delay: 0.8,
                   type: 'spring',
-                  duration: 0.8,
+                  duration: 1,
                 },
               },
             }}
@@ -498,7 +517,7 @@ export function Home() {
               transition: {
                 delay: 0.2,
                 type: 'spring',
-                duration: 0.4,
+                duration: 0.6,
               },
             },
           }}
@@ -516,9 +535,9 @@ export function Home() {
                 translateX: '0px',
                 opacity: 1,
                 transition: {
-                  delay: 0.4,
+                  delay: 0.6,
                   type: 'spring',
-                  duration: 0.6,
+                  duration: 0.8,
                 },
               },
             }}
@@ -536,9 +555,9 @@ export function Home() {
                 translateX: '0px',
                 opacity: 1,
                 transition: {
-                  delay: 0.6,
+                  delay: 0.8,
                   type: 'spring',
-                  duration: 0.8,
+                  duration: 1,
                 },
               },
             }}
@@ -560,32 +579,12 @@ export function Home() {
               transition: {
                 delay: 0.2,
                 type: 'spring',
-                duration: 0.4,
+                duration: 0.6,
               },
             },
           }}
           className="Chunck"
         >
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                translateX: '100px',
-                opacity: 0,
-              },
-              visible: {
-                translateX: '0px',
-                opacity: 1,
-                transition: {
-                  delay: 0.4,
-                  type: 'spring',
-                  duration: 0.6,
-                },
-              },
-            }}
-            className="ThreeLinePrimaryV2"
-          />
           <motion.div
             initial="hidden"
             animate="visible"
@@ -604,7 +603,7 @@ export function Home() {
                 },
               },
             }}
-            className="ThreeLineSecondaryV2"
+            className="ThreeLinePrimaryV2"
           />
           <motion.div
             initial="hidden"
@@ -621,6 +620,26 @@ export function Home() {
                   delay: 0.8,
                   type: 'spring',
                   duration: 1,
+                },
+              },
+            }}
+            className="ThreeLineSecondaryV2"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 1,
+                  type: 'spring',
+                  duration: 1.2,
                 },
               },
             }}
@@ -644,7 +663,7 @@ export function Home() {
               transition: {
                 delay: 0.2,
                 type: 'spring',
-                duration: 0.4,
+                duration: 0.6,
               },
             },
           }}
@@ -662,9 +681,9 @@ export function Home() {
                 translateX: '0px',
                 opacity: 1,
                 transition: {
-                  delay: 0.6,
+                  delay: 0.8,
                   type: 'spring',
-                  duration: 0.8,
+                  duration: 1,
                 },
               },
             }}
@@ -682,9 +701,9 @@ export function Home() {
                 translateX: '0px',
                 opacity: 1,
                 transition: {
-                  delay: 0.8,
+                  delay: 1,
                   type: 'spring',
-                  duration: 1,
+                  duration: 1.2,
                 },
               },
             }}
@@ -706,7 +725,7 @@ export function Home() {
               transition: {
                 delay: 0.4,
                 type: 'spring',
-                duration: 0.6,
+                duration: 1,
               },
             },
           }}
@@ -727,32 +746,12 @@ export function Home() {
               transition: {
                 delay: 0.2,
                 type: 'spring',
-                duration: 0.4,
+                duration: 0.6,
               },
             },
           }}
           className="Chunck"
         >
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                translateX: '100px',
-                opacity: 0,
-              },
-              visible: {
-                translateX: '0px',
-                opacity: 1,
-                transition: {
-                  delay: 0.4,
-                  type: 'spring',
-                  duration: 0.6,
-                },
-              },
-            }}
-            className="FourLinePrimaryV4"
-          />
           <motion.div
             initial="hidden"
             animate="visible"
@@ -771,7 +770,7 @@ export function Home() {
                 },
               },
             }}
-            className="FourLineSecondaryV4"
+            className="FourLinePrimaryV4"
           />
           <motion.div
             initial="hidden"
@@ -791,7 +790,7 @@ export function Home() {
                 },
               },
             }}
-            className="FourLineTertiaryV4"
+            className="FourLineSecondaryV4"
           />
           <motion.div
             initial="hidden"
@@ -808,6 +807,26 @@ export function Home() {
                   delay: 1,
                   type: 'spring',
                   duration: 1.2,
+                },
+              },
+            }}
+            className="FourLineTertiaryV4"
+          />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                translateX: '100px',
+                opacity: 0,
+              },
+              visible: {
+                translateX: '0px',
+                opacity: 1,
+                transition: {
+                  delay: 1.2,
+                  type: 'spring',
+                  duration: 1.4,
                 },
               },
             }}
