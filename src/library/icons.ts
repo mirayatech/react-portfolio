@@ -7,9 +7,9 @@ import { RiTwitterLine as Twitter } from 'react-icons/ri'
 import { IoLogoYoutube as YouTube } from 'react-icons/io'
 import { FaTiktok as TikTok } from 'react-icons/fa'
 import {
-  HiOutlineBars2 as TwoBars,
-  HiOutlineBars3 as ThreeBars,
-} from 'react-icons/hi2'
+  IoReorderTwoOutline as TwoBars,
+  IoMenuOutline as ThreeBars,
+} from 'react-icons/io5'
 
 export {
   Sun,

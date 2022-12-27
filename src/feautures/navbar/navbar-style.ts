@@ -71,7 +71,7 @@ export const Nav = styled.nav`
     width: 3rem;
     height: 3rem;
     border: none;
-    font-size: 2.5rem;
+    font-size: 3rem;
     border-radius: 50%;
     color: ${colors.white};
     background: transparent;
@@ -85,7 +85,7 @@ export const Nav = styled.nav`
     }
 
     svg {
-      height: 2.8rem;
+      height: 3rem;
     }
   }
 `
