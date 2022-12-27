@@ -6,10 +6,6 @@ export const Primary = styled.div`
   align-items: center;
   margin-top: -50px;
   padding: 0 20px;
-
-  @media screen and (max-width: 1230px) {
-    padding: 20px 20px 0 0;
-  }
 `
 
 export const Secondary = styled.div`
