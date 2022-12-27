@@ -1,16 +1,8 @@
 /* eslint-disable react/react-in-jsx-scope */
 import { useState } from 'react'
-import {
-  Github,
-  Instagram,
-  ThreeBars,
-  TikTok,
-  Twitter,
-  TwoBars,
-  YouTube,
-} from '../../library'
+import { Github, Instagram, TikTok, Twitter, YouTube } from '../../library'
 import { Grid, Links, Menu, Nav, Navigation, Wrapper } from './navbar-style'
-
+import './navbar.css'
 type NavbarProps = {
   scrollToSection: (elementRef: any) => void
   home: any
@@ -36,7 +28,11 @@ export function Navbar({
   return (
     <Nav>
       <button onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? <TwoBars /> : <ThreeBars />}
+        <div className={`icon nav-icon-1 ${isOpen && 'open'}`}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </button>
       {isOpen && (
         <Menu>
