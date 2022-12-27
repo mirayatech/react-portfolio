@@ -10,10 +10,6 @@ export const Primary = styled.div`
   @media screen and (max-width: 1230px) {
     padding: 20px 20px 0 0;
   }
-
-  @media screen and (max-width: 1024px) {
-    margin-top: -120px;
-  }
 `
 
 export const Secondary = styled.div`

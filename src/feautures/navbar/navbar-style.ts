@@ -60,33 +60,20 @@ font-weight: 900;
 
 export const Nav = styled.nav`
   display: flex;
-  padding: 2rem;
+  padding: 1rem;
   position: relative;
   justify-content: flex-end;
 
   button {
+    display: flex;
+    z-index: 100;
     position: fixed;
-    z-index: 20;
-    ${flexCenter}
-    width: 3rem;
-    height: 3rem;
+    border-radius: 0.5rem;
     border: none;
-    font-size: 3rem;
-    border-radius: 50%;
-    color: ${colors.white};
     background: transparent;
+    transition: all 0.2s ease;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-
-    transition: all 0.2s ease;
-
-    :hover {
-      transform: scale(1.1);
-    }
-
-    svg {
-      height: 3rem;
-    }
   }
 `
 
@@ -100,11 +87,11 @@ export const Menu = styled.nav`
   overflow: auto;
   position: fixed;
   align-items: center;
-  justify-content: space-evenly;
   flex-direction: row-reverse;
-  background-color: ${colors.transparentBlack};
+  justify-content: space-evenly;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  background-color: ${colors.transparentBlack};
 
   @media screen {
     flex-direction: column;
