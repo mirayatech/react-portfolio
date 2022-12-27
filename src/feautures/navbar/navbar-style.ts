@@ -7,13 +7,7 @@ font-weight: 900;
     color: ${colors.white};
     text-transform: uppercase;
     margin-bottom: 1rem;
-    background: linear-gradient(
-      -45deg,
-      ${colors.red},
-      ${colors.blue},
-      ${colors.red},
-      ${colors.blue}
-    );
+    background: var(--b-gardient);
     background-clip: text;
     background-size: 400% 400%;
     -webkit-background-clip: text;
@@ -42,13 +36,7 @@ font-weight: 900;
     color: ${colors.white};
     text-transform: uppercase;
     margin-bottom: 1rem;
-    background: linear-gradient(
-      -45deg,
-      ${colors.red},
-      ${colors.blue},
-      ${colors.green},
-      ${colors.blue}
-    );
+    background: var(--b-gardient);
     background-clip: text;
     background-size: 400% 400%;
     -webkit-background-clip: text;
@@ -114,7 +102,7 @@ export const Menu = styled.nav`
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row-reverse;
-  background-color: #00000001;
+  background-color: ${colors.transparentBlack};
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 

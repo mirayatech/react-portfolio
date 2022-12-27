@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap');
 :root {
-  --green: #ffdaef;
+  --blue: #819bf7;
   --body: #111111;
+  --white: #fff;
 }
 
 * {
@@ -9,11 +10,12 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Noto Sans JP', sans-serif;
+  cursor: none;
 }
 
 *::selection {
   color: var(--body);
-  background-color: var(--green);
+  background-color: var(--blue);
 }
 
 button {

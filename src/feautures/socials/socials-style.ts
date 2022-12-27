@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { colors } from '../../library'
 
-const borderPink = ` 3px solid ${colors.green};`
+const borderBlue = ` 3px solid ${colors.blue};`
 const borderGrey = `1px solid ${colors.lightGrey}`
 
 export const Links = styled.div`
@@ -35,7 +35,7 @@ export const Link = styled.a`
   padding: 1.5rem;
   border: ${borderGrey};
   transition: all 0.2s ease;
-  border-bottom: ${borderPink};
+  border-bottom: ${borderBlue};
 
   :hover {
     color: ${colors.offWhite};

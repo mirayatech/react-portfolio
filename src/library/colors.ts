@@ -1,6 +1,5 @@
 export const colors = {
   white: '#fff',
-  green: '#ffdaef',
   offWhite: '#F9FAFB',
   body: '#111111',
   badge: '#444444',
@@ -8,6 +7,7 @@ export const colors = {
   lightGrey: '#adadad',
   blue: '#819bf7',
   red: '#ff7373',
+  transparentBlack: '#11111151',
 }
 
 export const linearGardient = {
