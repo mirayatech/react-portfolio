@@ -1,9 +1,11 @@
 <div align="center">
 
-### More coming soon...
+## Miraya Tech - Personal website of 2023
 
-<!-- ![](https://thumbs.gfycat.com/AccomplishedMeekFanworms-size_restricted.gif) -->
 
-![](https://i.pinimg.com/originals/b5/b8/81/b5b88175cf4f89cd659e09bd205b87ee.gif)
+
+https://user-images.githubusercontent.com/71933266/209756777-88cc7561-118a-41f6-a770-dd00655dafa2.mp4
+
+
 
 </div>
