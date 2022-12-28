@@ -77,31 +77,6 @@ export const Nav = styled.nav`
   }
 `
 
-export const Menu = styled.nav`
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  overflow: auto;
-  position: fixed;
-  align-items: center;
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background-color: ${colors.transparentBlack};
-
-  @media screen {
-    flex-direction: column;
-  }
-
-  * {
-    z-index: 20;
-  }
-`
-
 export const Navigation = styled.div`
   h1 {
     ${H1}

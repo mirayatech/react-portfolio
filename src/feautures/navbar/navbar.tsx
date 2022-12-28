@@ -1,7 +1,8 @@
 /* eslint-disable react/react-in-jsx-scope */
+import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Github, Instagram, TikTok, Twitter, YouTube } from '../../library'
-import { Grid, Links, Menu, Nav, Navigation, Wrapper } from './navbar-style'
+import { Grid, Links, Nav, Navigation, Wrapper } from './navbar-style'
 import './navbar.css'
 type NavbarProps = {
   scrollToSection: (elementRef: any) => void
@@ -35,7 +36,26 @@ export function Navbar({
         </div>
       </button>
       {isOpen && (
-        <Menu>
+        <motion.div
+          className="menu"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              scale: 0,
+              opacity: 0,
+            },
+            visible: {
+              scale: 1,
+              opacity: 1,
+              transition: {
+                delay: 0.2,
+                type: 'spring',
+                duration: 0.5,
+              },
+            },
+          }}
+        >
           <Navigation>
             <h1>Navigation</h1>
 
@@ -87,7 +107,7 @@ export function Navbar({
               </a>
             </Grid>
           </Links>
-        </Menu>
+        </motion.div>
       )}
     </Nav>
   )

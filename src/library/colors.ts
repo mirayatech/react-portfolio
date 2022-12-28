@@ -7,7 +7,6 @@ export const colors = {
   lightGrey: '#adadad',
   blue: '#819bf7',
   red: '#ff7373',
-  transparentBlack: '#11111151',
 }
 
 export const linearGardient = {
