@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { colors, flexCenter } from '../../library'
+import { colors } from '../../library'
 const H1 = `
 font-weight: 900;
     letter-spacing: 2px;

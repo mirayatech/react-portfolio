@@ -18,10 +18,11 @@ export const Grid = styled.div`
   }
 `
 
-export const Card = styled.div`
+export const Card = styled.a`
   height: 20rem;
   width: 20rem;
   display: flex;
+  color: ${colors.body};
   padding: 1.5rem;
   position: relative;
   flex-direction: column;
