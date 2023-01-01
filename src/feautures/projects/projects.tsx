@@ -17,7 +17,7 @@ export function Projects() {
 
       <Grid>
         {projects.map((project) => (
-          <Card href={project.githubUrl} key={project.title}>
+          <Card href={project.githubUrl} target="_blank" key={project.title}>
             <Links>
               <a target={'_blank'} href={project.githubUrl} rel="noreferrer">
                 <Github />
