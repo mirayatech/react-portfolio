@@ -11,6 +11,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Noto Sans JP', sans-serif;
+  background: var(--body);
+  background-color: var(--body);
 }
 
 *::selection {
@@ -34,4 +36,5 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   background: var(--body);
+  background-color: var(--body);
 }
